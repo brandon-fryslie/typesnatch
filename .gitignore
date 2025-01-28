@@ -1,0 +1,28 @@
+.aider*
+.env
+# Specify files and directories to ignore in version control.
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+# Project-specific files and directories to ignore
+.aider-analytics.log
+.aider.chat.history.md
+.aider.input.history
+.aider.tags.cache.v3/
+.idea/
+build/
+font_chuffer.egg-info/
+typesnatch.egg-info/
+# Use wildcards to ignore specific patterns
+*.log
+*.md
+*.history
+*.cache.v3/
+*.egg-info/
