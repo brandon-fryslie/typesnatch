@@ -26,3 +26,4 @@ typesnatch.egg-info/
 *.history
 *.cache.v3/
 *.egg-info/
+dist
