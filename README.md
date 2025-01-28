@@ -2,6 +2,8 @@
 
 TypeSnatch is a command-line tool designed to help users search for, install, and manage fonts efficiently. It leverages the power of Python and several libraries to provide a seamless experience for font enthusiasts and developers alike.
 
+*NOTE: This tool was largely generated using Aider and OpenAI GPT4o (I helped a little)*
+
 ## Features
 
 - **Search Fonts**: Quickly search for fonts using a query string.
