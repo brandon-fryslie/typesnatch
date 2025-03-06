@@ -1,6 +1,6 @@
 import os
 import requests
-from font_chuffer.core import search_fonts, install_font
+from typesnatch.core import search_fonts, install_font
 import click
 import inquirer
 from colorama import Fore

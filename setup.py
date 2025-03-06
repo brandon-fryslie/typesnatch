@@ -1,25 +1,33 @@
 from setuptools import setup, find_packages
 
+# Read dependencies from requirements.txt
+def read_requirements():
+    with open("requirements.txt") as f:
+        return [line.strip() for line in f if line.strip() and not line.startswith("#")]
+
 setup(
     name='typesnatch',
-    version='0.1.0',
+    version='0.1.3',
     packages=find_packages(),
     install_requires=[
-        'requests',
         'beautifulsoup4',
         'click',
+        'colorama',
+        'playwright',
+        'requests',
+        'inquirer',
     ],
     entry_points={
         'console_scripts': [
             'typesnatch=typesnatch.cli:cli',
         ],
     },
-    author='Your Name',
-    author_email='your.email@example.com',
-    description='A brief description of TypeSnatch',
+    author='Brandon Fryslie',
+    author_email='admin@swank.town',
+    description='TypeSnatch: Install fonts the easy way',
     long_description=open('README.md').read(),
     long_description_content_type='text/markdown',
-    url='https://github.com/yourusername/typesnatch',
+    url='https://github.com/brandon-fryslie/typesnatch',
     classifiers=[
         'Programming Language :: Python :: 3',
         'License :: OSI Approved :: MIT License',
